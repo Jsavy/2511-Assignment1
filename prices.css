@@ -1,0 +1,39 @@
+.inline-div {
+    display: block;
+    text-align: center;
+}
+
+
+h2 {
+    display: inline-block;
+    text-align: center;
+    padding: 200px;
+}
+
+#free {
+    display: inline-block;
+    text-align: left;
+    margin-left: 315px;
+}
+
+#basic {
+    display: inline-block;
+    text-align: left;
+    margin-left: 150px;
+}
+
+#premium {
+    display: inline-block;
+    text-align: left;
+    margin-left: 175px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+
