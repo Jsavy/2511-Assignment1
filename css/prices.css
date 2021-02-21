@@ -10,7 +10,7 @@
 
 body {
     font-family: Helvetica, sans-serif;
-    background-image:url("../images/pricebackground.jpeg");
+    background-image: url(..images/pricebackground.png);
 }
 
 #youcolor {
@@ -20,6 +20,7 @@ body {
 
 h2 {
     display: inline-block;
+    display: -moz-inline-box;
     *display: inline; 
     zoom:1;
     width: 30%;
@@ -29,7 +30,6 @@ h2 {
     border-color: #4c4444;
     background-color: #4c4444;
 }
-
 
 #freeprice {
     margin-left: 85px;

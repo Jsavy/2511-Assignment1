@@ -7,40 +7,57 @@
 			<meta name = "keywords" content = "HTML, Web Development, Internet" />
 			<meta name = "description" content = "" />
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <link rel="stylesheet" href="prices.css" />
+            <link rel="stylesheet" href="css/prices.css" />
 	</head>
     <body>
-       <h1 style="text-align:center">Choose a package that suits you</h1>
+       <h1 id = "choosepackage">Choose the learning package that suits <span id="youcolor">you</span></h1>
        <div class="inline-div">
             <h2>Free</h2>
             <h2>Basic</h2>
             <h2>Premium</h2>
        </div>
        <div id="free">
+           <h1 id="freeprice">$0 / Month</h1>
            <ul>
-                <li>Learn basic HTML tags and attributes</li>
-                <li>Learn proper HTML documentation</li>
-                <li>Work on your own time using our videos</li>
+                <li class="check"><span>Learn basic HTML tags and attributes</span></li>
+                <li class="check"><span>Learn proper HTML documentation</span></li>
+                <li class="check"><span>Work on your own time using our videos</span></li>
+                <li class="cancel"><span>Learn CSS</span></li>
+                <li class="cancel"><span>Lessons from a professional web developer</span></li>
+                <li class="cancel"><span>Personalized lessons catered to you</span></li>
+                <li class="cancel"><span>Ask our tutors for personal help any time</span></li>
            </ul>
         </div>
-        <div id= "basic">
+        <div id="basic">
             <ul>
-                <li>Learn basic HTML tags and attributes</li>
-                <li>Learn proper HTML documentation</li>
-                <li>Work on your own time using our videos</li>
-                <li>Learn CSS</li>
+                <h1 id = "basicprice">15$ / Month</h1>
+                <li class="check"><span>Learn basic HTML tags and attributes</span></li>
+                <li class="check"><span>Learn proper HTML documentation</span></li>
+                <li class="check"><span>Work on your own time using our videos</span></li>
+                <li class="check"><span>Learn CSS</span></li>
+                <li class="cancel"><span>Lessons from a professional web developer</span></li>
+                <li class="cancel"><span>Personalized lessons catered to you</span></li>
+                <li class="cancel"><span>Ask our tutors for personal help any time</span></li>
             </ul>
         </div>
         <div id="premium">
             <ul>
-                <li>Learn basic HTML tags and attributes</li>
-                <li>Learn proper HTML documentation</li>
-                <li>Work on your own time using our videos</li>
-                <li>Learn CSS colors, fonts and sizes</li>
-                <li>Lessons from a professional web developer</li>
+                <h1 id = "premiumprice">$25 / Month</h1>
+                <li class="check"><span>Learn basic HTML tags and attributes</span></li>
+                <li class="check"><span>Learn proper HTML documentation</span></li>
+                <li class="check"><span>Work on your own time using our videos</span></li>
+                <li class="check"><span>Learn CSS</span></li>
+                <li class="check"><span>Lessons from a professional web developer</span></li>
+                <li class="check"><span>Personalized lessons catered to you</span></li>
+                <li class="check"><span>Ask our tutors for personal help any time</span></li>
             </ul>
         </div>
-        <div>
-        </div>
+        <section>
+            <h1 id="faq">Frequently Asked Questions</h1>
+            <h3>How long does it take to complete the learning?</h3>
+            <p>It takes about 3-8 months to complete all of our modules, this is dependent on your schedule.</p>
+            <h3>Do I need to download a software?</h3>
+            <p>The only software you need to download is Visual Studio Code to create HTML and CSS files. Use this <a href="https://code.visualstudio.com/">link</a> to download Visual Studio Code.</p>
+        </section>
   
     </body>
