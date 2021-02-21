@@ -1,0 +1,42 @@
+h1{
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; 
+    zoom:1;
+    text-align: center;
+    border: solid;
+    color: #99d7cb;
+    border-color: #4c4444;
+    background-color: #4c4444;
+}
+
+h2{
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; 
+    zoom:1;
+    width: 50%;
+    text-align: center;
+    border: solid;
+    color: #99d7cb;
+    border-color: #4c4444;
+    background-color: #4c4444;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+.floatRight{
+    float:right; margin-left: 20px;
+}
+.floatRightClear{
+    float:right;clear:right;margin-left:20px
+}
+figcaption{
+    float:right; margin-left: -20px;
+}
+
+p{
+    text-align: left;
+}
