@@ -23,12 +23,52 @@ h2{
     background-color: #4c4444;
 }
 
+#Intro{
+    text-align: center;
+    border: dotted;
+    padding-right: 20px;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 50px;
+}
+
+#Free{
+    text-align: center;
+    border: dotted;
+    padding-right: 20px;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 50px;
+}
+
+#Basic{
+    text-align: center;
+    border: dotted;
+    padding-right: 20px;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 50px;
+}
+
+#Premium{
+    text-align: center;
+    border: dotted;
+    padding-right: 20px;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 50px;
+}
+
 body{
     font-family: Helvetica, sans-serif;
 }
 
 .floatRight{
-    float:right; margin-left: 20px;
+    float:right; margin-left: 20px; opacity: 0.5;
 }
 .floatRightClear{
     float:right;clear:right;margin-left:20px
