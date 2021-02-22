@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Welcome to our page</title>
+			<meta charset = "UTF-8">
+			<meta name = "author" content = "Justin S"/>
+			<meta name = "keywords" content = "HTML, Web Development, Internet" />
+			<meta name = "description" content = "" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="stylesheet" href="css/home.css" />
+    </head>
+    <body>
+    <header>
+        <h1>Company Logo here</h1>
+        <nav>
+            <ul>
+                <!--Send to other pages of project and signup form-->
+                <li><a href="packages.html">Information about package offers</a></li>
+                <li><a href="prices.html">Information about prices of packages</a></li>
+                <li><a href="#Register">Signup form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="backgroundInfo">
+    <article>
+        <div class="inline">
+        <h2>Company Background</h2>
+        </div>
+        <p>
+            Welcome to the home page for the Ustin Brothers. We are a company that was founded on a common interest
+            of enjoying computer programming at an early age. Our company strives to teach younger children the basics of 
+            making their own HTML website as well as learn how to format the website to make it more profressional with 
+            the help of CSS.
+        </p>
+    </article>
+    </section>
+    <section id="ContactUs">
+    <article>
+        <div class="inline">
+        <h2>How to Contact Us</h2>
+        </div>
+        <p><b><i>Office Location:</i></b>
+            247 Valley Pointe Way NW, T3B 6B4
+        </p>
+        <p><b>Telephone:</b>
+            (587)-430-0943
+        </p>
+        <p><b>Fax:</b>
+            (403)-921-1001
+        </p>
+        <p><b>Email:</b>
+            ustinbrothers@throwaway.ca
+        </p>
+    </article>
+    </section>
+    <section id="hoursOperation">
+        <article>
+            <div class="inline">
+            <h2>Office Hours</h2>
+            </div>
+            <table class="center">
+                <tr>
+                    <th>Day of the Week</th>
+                    <th>Open</th>
+                    <th>Close</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>8am</td>
+                    <td>10pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>10am</td>
+                    <td>9pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>9am</td>
+                    <td>9pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>9am</td>
+                    <td>8pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>8am</td>
+                    <td>2pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>12pm</td>
+                    <td>7pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>12pm</td>
+                    <td>5pm</td>
+                </tr>
+            </table>
+        </article>
+    </section>
+    <section id="#signupForm">
+        <h2>Register Today<a id=Register></a></h2>
+        <form method="GET" action="confirmation.html" name="Sign up Form"></form>
+        <input type="hidden" name="subject" value="signup">
+        <p>
+            <fieldset>
+                <legend>Select your package type</legend>
+                <select required>
+                    <option value=""> &nbsp; </option>
+                    <option value="1" selected>Free</option>
+                    <option value="2">Basic</option>
+                    <option value="3">Premium</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p>
+                    <label>
+                    Name:
+                    <input name="fullname" type="text" placeholder="Full Name" size="25" value="" maxlength="20" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                    Phone:
+                    <input name="telephone" type="tel" size="25" placeholder="123-456-7890"
+                    pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="20" required>
+                    (e.g 403-123-4567)
+                    </label>
+                </p>
+                <p>
+                    <label>
+                    Date of Birth:
+                    <input name="date" type="date" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                    Email:
+                    <input name="email" type="email" size="25" placeholder="Enter your email" value=""
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="40" required>
+                    (e.g Joebow@gmail.com)
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Security Question: What is 5 times 3?
+                        <input name="security" type="text" placeholder="Type in answer to math question here to proof not a robot" 
+                        size="50"  value="" maxlength="3" required>
+                    </label>
+                </p>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+    </form>
+    </section>
+    <footer>
+        <p>Copyright &copy; 2021 Ustin Brothers</p>
+    </footer>
+    </body>
+</html>

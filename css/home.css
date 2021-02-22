@@ -1,0 +1,63 @@
+.inline{
+    display: block;
+    text-align: center;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+li {
+    display: inline;
+    padding: 180px;
+}
+h2{
+    display: inline-block;
+    display: -moz-inline-box;
+    *display: inline; 
+    zoom:1;
+    width: 50%;
+    text-align: center;
+    border: solid;
+    color: #99d7cb;
+    border-color: #4c4444;
+    background-color: #4c4444;
+}
+#ContactUs{
+    text-align: center;
+    border: dotted;
+    padding-right: 20px;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 50px;
+}
+#hoursOperation{
+    border: dotted;
+    padding-right: 20px;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 50px;
+}
+#backgroundInfo{
+    text-align: center;
+    border: dotted;
+    padding-right: 20px;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 25px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    border:3px solid #1cc9af;
+}
+table td{
+    border:1px solid #1cc9af;
+    padding: 10px;
+}
