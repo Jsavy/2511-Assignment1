@@ -48,7 +48,7 @@ h2{
     border-radius: 25px;
     border-color: #107896;
     vertical-align: top;
-    padding: 25px;
+    padding-top: 50px;
 }
 .center{
     margin-left: auto;
@@ -60,4 +60,9 @@ table{
 table td{
     border:1px solid #1cc9af;
     padding: 10px;
+}
+figure{
+    position: absolute;
+    top: 29px;
+    left: -80px;
 }
