@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Welcome to our page</title>
+		<title>Welcome to Ustin Brothers</title>
 			<meta charset = "UTF-8">
 			<meta name = "author" content = "Justin S"/>
 			<meta name = "keywords" content = "HTML, Web Development, Internet" />
@@ -12,7 +12,7 @@
     <body>
     <header>
         <figure>
-            <img src="./images/companylogo.png" alt="The company logo for Ustin Brothers" height="60%" width="60%">
+            <img src="./images/companylogo.png" alt="The company logo for Ustin Brothers" height="162" width="288">
         </figure>
         <nav>
             <ul>
@@ -93,20 +93,18 @@
                 </tr>
                 <tr>
                     <td>Saturday</td>
-                    <td>12pm</td>
-                    <td>7pm</td>
+                    <td rowspan="2">12pm</td>
+                    <td rowspan="2">7pm</td>
                 </tr>
                 <tr>
                     <td>Sunday</td>
-                    <td>12pm</td>
-                    <td>5pm</td>
                 </tr>
             </table>
         </article>
     </section>
     <section id="#signupForm">
         <h2>Register Today<a id=Register></a></h2>
-        <form method="GET" action="confirmation.html" name="Sign up Form"></form>
+        <form method="POST" action="mailto:ustinbrothers@throwaway.ca" name="Sign up Form" enctype="text/plain">
         <input type="hidden" name="subject" value="signup">
         <p>
             <fieldset>
@@ -130,8 +128,7 @@
                     <label>
                     Phone:
                     <input name="telephone" type="tel" size="25" placeholder="123-456-7890"
-                    pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="20" required>
-                    (e.g 403-123-4567)
+                    pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="20">
                     </label>
                 </p>
                 <p>
@@ -143,23 +140,55 @@
                 <p>
                     <label>
                     Email:
-                    <input name="email" type="email" size="25" placeholder="Enter your email" value=""
+                    <input name="email" type="email" size="25" placeholder="exampleEmail@address.com" value=""
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="40" required>
-                    (e.g Joebow@gmail.com)
                     </label>
                 </p>
                 <p>
+                    <label>
+                        Favourite Hobby:
+                        <input name="hobby" type="radio" value="flight" checked>
+                        Swimming
+                    </label>
+                    <label>
+                        <input name="hobby" type="radio" value="flight">
+                        Video Games
+                    </label>
+                    <label>
+                        <input name="hobby" type="radio" value="flight">
+                        Mountain Biking
+                    </label>
+                    <p>
+                        <label>
+                            Music genre's you enjoy:
+                            <input name="option" type="checkbox" value="hotel">
+                            Pop
+                        </label>
+                    <label>
+                        <input name="options" type="checkbox" value="rental car">
+                        Rock
+                    </label>
+                    <label>
+                        <input name="options" type="checkbox" value="travel guide">
+                        Jazz
+                    </label>
+                    <label>
+                        <input name="options" type="checkbox" value="travel guide">
+                        Hip-Hop
+                    </label>
+                    </p>
+                    <p>
                     <label>
                         Security Question: What is 5 times 3?
                         <input name="security" type="text" placeholder="Type in answer to math question here to proof not a robot" 
                         size="50"  value="" maxlength="3" required>
                     </label>
+                    </p>
                 </p>
             </fieldset>
             <br>
             <input type="submit" value="Submit">
-            <input type="reset" value="Clear">
-        </p>
+            <input type="reset" value="Clear">      
     </form>
     </section>
     <footer>

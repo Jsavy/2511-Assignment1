@@ -56,6 +56,7 @@ h2{
 }
 table{
     border:3px solid #1cc9af;
+    border-style: dashed dotted dashed dotted;
 }
 table td{
     border:1px solid #1cc9af;
@@ -65,4 +66,40 @@ figure{
     position: absolute;
     top: 29px;
     left: -80px;
+}
+tr:nth-child(even) {
+    background-color: #1cc9af;
+}
+tr:nth-child(odd) {
+    background-color: #107896;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: #d50ae7
+}
+a:hover{
+    background-color: #107896;
+}
+a:active{
+    color: red;
+}
+input[type=text] {
+    display:block;
+}
+input[type=tel] {
+    display: block;
+}
+input[type=email] {
+    display: block;
+}
+input[type=date] {
+    display: block;
+}
+input[type=checkbox] {
+    display: inline;
+}
+input[type=radio] {
+    display: inline;
 }
