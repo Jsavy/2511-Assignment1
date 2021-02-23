@@ -10,7 +10,6 @@
 
 body {
     font-family: Helvetica, sans-serif;
-    background-image: url(..images/pricebackground.png);
 }
 
 #youcolor {
@@ -48,7 +47,7 @@ h2 {
 }
 
 #basicprice {
-    margin-left: 40px;
+    margin-left: 90px;
     color: #4c4444;
 }
 
@@ -64,7 +63,7 @@ h2 {
 }
 
 #premiumprice {
-    margin-left: 50px;
+    margin-left: 100px;
     color: #4c4444;
 }
 
