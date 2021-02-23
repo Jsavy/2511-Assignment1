@@ -23,6 +23,10 @@ h2{
     background-color: #4c4444;
 }
 
+p::first-letter{
+    color: #99d7cb;
+}
+
 #Intro{
     text-align: center;
     border: dotted;
