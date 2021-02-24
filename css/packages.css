@@ -78,7 +78,10 @@ body{
     float:right;clear:right;margin-left:20px
 }
 figcaption{
-    float:right; margin-left: -20px;
+    position: absolute;
+    right: 110px;
+    top: 510px;
+    float:right; margin-left: -40px;
 }
 
 p{
