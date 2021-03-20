@@ -12,9 +12,6 @@
     </head>
     <body>
     <header>
-        <figure>
-            <img src="./images/companylogo.png" alt="The company logo for Ustin Brothers" height="162" width="288">
-        </figure>
         <nav>
             <ul>
                 <!--Send to other pages of project and signup form-->
@@ -23,6 +20,7 @@
                 <li><a href="#Register">Signup form</a></li>
             </ul>
         </nav>
+        <img id="companylogo" src="./images/companylogo.png" alt="The company logo for Ustin Brothers" height="162" width="288">
     </header>
     <section id="backgroundInfo">
     <article>
@@ -32,10 +30,10 @@
         <p>
             Welcome to the home page for the Ustin Brothers. We are a company that was founded on a common interest
             of enjoying computer programming at an early age. Our company strives to teach younger children the basics of 
-            making their own HTML website as well as learn how to format the website to make it more profressional with 
+            making their own HTML website as well as learn how to format the website to make it more professional with 
             the help of CSS.
         </p>
-    </article>
+        <img src=/images/screentime-2.jpg>
     </section>
     <section id="ContactUs">
     <article>
@@ -104,7 +102,9 @@
         </article>
     </section>
     <section id="#signupForm">
-        <h2>Register Today<a id=Register></a></h2>
+        <div class="inline">
+            <h2>Register Today<a id=Register></a></h2>
+        </div>
         <form method="POST" action="mailto:ustinbrothers@throwaway.ca" name="Sign up Form" enctype="text/plain">
         <input type="hidden" name="subject" value="signup">
         <p>
@@ -187,8 +187,8 @@
                     </p>
             </fieldset>
             <br>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Clear">      
+            <input class="submit" type="submit" value="Submit">
+            <input class="submit" type="reset" value="Clear">      
     </form>
     </section>
     <footer>

@@ -5,12 +5,19 @@
 body{
     font-family: Helvetica, sans-serif;
 }
+header {
+    border: solid;
+    border-color: #107896;
+    display:flex;
+    align-items: center;
+}
+
 ul{
     list-style-type: none;
 }
+
 li {
-    display: inline;
-    padding: 180px;
+   padding: 20px;
 }
 h2{
     display: inline-block;
@@ -50,6 +57,10 @@ h2{
     vertical-align: top;
     padding-top: 50px;
 }
+#companylogo{
+    margin-left:auto;
+    margin-right:auto;
+}
 .center{
     margin-left: auto;
     margin-right: auto;
@@ -59,14 +70,19 @@ table{
     border-style: dashed dotted dashed dotted;
 }
 table td{
-    border:1px solid #1cc9af;
+    border:3px solid #1cc9af;
     padding: 10px;
 }
-figure{
-    position: absolute;
-    top: 29px;
-    left: -80px;
+input{
+    margin:auto;
 }
+fieldset{
+    text-align: center;
+}
+.submit {
+    float:right;
+}
+
 tr:nth-child(even) {
     background-color: #1cc9af;
 }
@@ -102,4 +118,7 @@ input[type=checkbox] {
 }
 input[type=radio] {
     display: inline;
+}
+@media only screen and (min-width: 600px) {
+    
 }
