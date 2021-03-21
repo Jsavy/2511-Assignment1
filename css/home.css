@@ -299,7 +299,18 @@ input[type=radio] {
     }
     input[type=radio] {
         display: inline;
+    }
 
-
+    #signupForm{
+        padding: 100px;
     }
 }
+
+/* @media screen and (min-width: 1000px){
+    #entirePage{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+*/
