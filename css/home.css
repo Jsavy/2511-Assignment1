@@ -119,6 +119,33 @@ input[type=checkbox] {
 input[type=radio] {
     display: inline;
 }
+#intro{
+    text-align: center;
+    align-content: center;
+    border: dotted;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 50px;
+    height: 80%;
+}
+    #free {
+        display: inline-block;
+        border: dotted;
+        text-align: center;
+        padding-right: 20px;
+        border-radius: 25px;
+        border-color: #107896;
+        vertical-align: top;
+    }
+.check {
+    list-style: "✔"; 
+    color: green;
+}
+.cancel {
+    list-style: "🗙";
+    color: red;
+}
 @media only screen and (min-width: 600px) {
     
     header {
