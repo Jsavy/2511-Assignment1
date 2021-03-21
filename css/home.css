@@ -146,7 +146,10 @@ input[type=radio] {
     list-style: "🗙";
     color: red;
 }
-@media only screen and (min-width: 600px) {
+footer {
+	margin-top: 60px;
+}
+@media only screen and (min-width: 900px) {
     
     header {
         border: dotted;
@@ -157,7 +160,7 @@ input[type=radio] {
 
     #companylogo{
         position: relative;
-        
+	left: -350px;        
     }
 
     #top{
@@ -300,10 +303,6 @@ input[type=radio] {
     input[type=radio] {
         display: inline;
     }
-
-    #signupForm{
-        padding: 100px;
-    }
 }
 
 /* @media screen and (min-width: 1000px){
@@ -314,3 +313,18 @@ input[type=radio] {
     }
 }
 */
+@media only screen and (min-width: 1300px) {
+	#companylogo{
+		left: -530px;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	#companylogo{
+		left: -710px;
+	}
+}
+@media only screen and (min-width: 1800px) {
+	#companylogo{
+		left: -800px;
+	}
+}
