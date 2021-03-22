@@ -5,12 +5,19 @@
 body{
     font-family: Helvetica, sans-serif;
 }
+header {
+    border: solid;
+    border-color: #107896;
+    display:flex;
+    align-items: center;
+}
+
 ul{
     list-style-type: none;
 }
+
 li {
-    display: inline;
-    padding: 180px;
+   padding: 20px;
 }
 h2{
     display: inline-block;
@@ -50,6 +57,10 @@ h2{
     vertical-align: top;
     padding-top: 50px;
 }
+#companylogo{
+    margin-left:auto;
+    margin-right:auto;
+}
 .center{
     margin-left: auto;
     margin-right: auto;
@@ -59,19 +70,24 @@ table{
     border-style: dashed dotted dashed dotted;
 }
 table td{
-    border:1px solid #1cc9af;
+    border:3px solid #1cc9af;
     padding: 10px;
 }
-figure{
-    position: absolute;
-    top: 29px;
-    left: -80px;
+input{
+    margin:auto;
 }
+fieldset{
+    text-align: center;
+}
+.submit {
+    float:right;
+}
+
 tr:nth-child(even) {
     background-color: #1cc9af;
 }
 tr:nth-child(odd) {
-    background-color: #107896;
+    background-color: #15A8D1;
 }
 a:link{
     color: black;
@@ -102,4 +118,213 @@ input[type=checkbox] {
 }
 input[type=radio] {
     display: inline;
+}
+#intro{
+    text-align: center;
+    align-content: center;
+    border: dotted;
+    border-radius: 25px;
+    border-color: #107896;
+    vertical-align: top;
+    padding: 50px;
+    height: 80%;
+}
+    #free {
+        display: inline-block;
+        border: dotted;
+        text-align: center;
+        padding-right: 20px;
+        border-radius: 25px;
+        border-color: #107896;
+        vertical-align: top;
+    }
+.check {
+    list-style: "✔"; 
+    color: green;
+}
+.cancel {
+    list-style: "🗙";
+    color: red;
+}
+footer {
+	margin-top: 60px;
+}
+@media only screen and (min-width: 900px) {
+    
+    header {
+        border: dotted;
+        border-color: #107896;
+        display:flex;
+        margin: 10px;
+    }
+
+    #companylogo{
+        position: relative;
+	left: -350px;        
+    }
+
+    #top{
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+        height: 100%;
+        margin: 10px;
+    }
+
+    h2{
+        display: inline-block;
+        display: -moz-inline-box;
+        *display: inline; 
+        zoom:1;
+        width: 50%;
+        text-align: center;
+        border: solid;
+        color: #99d7cb;
+        border-color: #4c4444;
+        background-color: #4c4444;
+    }
+
+    #ContactUs{
+        text-align: center;
+        align-content: center;
+        border: dotted;
+        border-radius: 25px;
+        border-color: #107896;
+        vertical-align: top;
+        padding-top: 50px;
+        
+    }
+    #hoursOperation{
+        border: dotted;
+        border-radius: 25px;
+        border-color: #107896;
+        vertical-align: top;
+        padding: 50px;
+    }
+
+    #intro{
+        text-align: center;
+        align-content: center;
+        border: dotted;
+        border-radius: 25px;
+        border-color: #107896;
+        vertical-align: top;
+        padding: 50px;
+        height: 80%;
+    }
+    
+    #free {
+        display: inline-block;
+        border: dotted;
+        text-align: center;
+        padding-right: 20px;
+        border-radius: 25px;
+        border-color: #107896;
+        vertical-align: top;
+    }
+
+    .check {
+        list-style: "✔"; 
+        color: green;
+    }
+    .cancel {
+        list-style: "🗙";
+        color: red;
+    }
+
+    #backgroundInfo{
+        text-align: center;
+        border: dotted;
+        padding-right: 20px;
+        border-radius: 25px;
+        border-color: #107896;
+        vertical-align: top;
+        padding-top: 50px;
+    }
+    table{
+        border:3px solid #1cc9af;
+        border-style: dashed dotted dashed dotted;
+    }
+    table td{
+        border:3px solid #1cc9af;
+        padding: 10px;
+    }
+    input{
+        margin:auto;
+    }
+    fieldset{
+        text-align: center;
+    }
+    .submit {
+        float:right;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #1cc9af;
+    }
+    tr:nth-child(odd) {
+        background-color: #107896;
+    }
+    a:link{
+        color: black;
+    }
+    a:visited{
+        color: #d50ae7
+    }
+    a:hover{
+        background-color: #107896;
+    }
+    a:active{
+        color: red;
+    }
+    input[type=text] {
+        display:block;
+    }
+    input[type=tel] {
+        display: block;
+    }
+    input[type=email] {
+        display: block;
+    }
+    input[type=date] {
+        display: block;
+    }
+    input[type=checkbox] {
+        display: inline;
+    }
+    input[type=radio] {
+        display: inline;
+    }
+}
+
+/* @media screen and (min-width: 1000px){
+    #entirePage{
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+*/
+@media only screen and (min-width: 1300px) {
+	#companylogo{
+		left: -530px;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	#companylogo{
+		left: -710px;
+	}
+}
+@media only screen and (min-width: 1800px) {
+	#companylogo{
+		left: -800px;
+	}
 }

@@ -87,3 +87,10 @@ figcaption{
 p{
     text-align: left;
 }
+
+a:link{
+    color:aqua;
+}
+a:visited{
+    color: #d50ae7
+}

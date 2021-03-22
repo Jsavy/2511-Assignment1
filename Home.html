@@ -10,19 +10,17 @@
             <link rel="stylesheet" href="css/home.css" />
             <!--Test Update-->
     </head>
-    <body>
+    <body id="entirePage">
     <header>
-        <figure>
-            <img src="./images/companylogo.png" alt="The company logo for Ustin Brothers" height="162" width="288">
-        </figure>
         <nav>
-            <ul>
+            <ul id="top">
                 <!--Send to other pages of project and signup form-->
                 <li><a href="packages.html" target="_blank">Information about package offers</a></li>
                 <li><a href="prices.html" target="_blank">Information about prices of packages</a></li>
                 <li><a href="#Register">Signup form</a></li>
             </ul>
         </nav>
+        <img id="companylogo" src="./images/companylogo.png" alt="The company logo for Ustin Brothers" height="162" width="288">
     </header>
     <section id="backgroundInfo">
     <article>
@@ -32,11 +30,38 @@
         <p>
             Welcome to the home page for the Ustin Brothers. We are a company that was founded on a common interest
             of enjoying computer programming at an early age. Our company strives to teach younger children the basics of 
-            making their own HTML website as well as learn how to format the website to make it more profressional with 
+            making their own HTML website as well as learn how to format the website to make it more professional with 
             the help of CSS.
         </p>
-    </article>
+        <img src=./images/screentime-2.jpg>
     </section>
+    <section class="grid">
+        <section id="description">
+            <div id="intro">
+                <h2>Our packages are specially designed to help your children succeed!</h2>
+                <br>
+                <p>
+                    Here at Ustin Brothers, we strive to get children excited about web development through the use of exciting tools and exciting projects.
+                    Our professional instructors have years of experience in web development and have a passion for teaching younger generations.
+                    They are here to teach your children the necessary skills to develop them as web developers further. 
+                    Our packages are specially designed to teach your children the fundamentals of web development in a fun and exciting way.
+                </p>
+            </div>
+        </section>
+    
+        <div id="free">
+            <h2 id="freeprice">For $0 a Month</h2>
+            <ul>
+                 <li class="check"><span>Learn basic HTML tags and attributes</span></li>
+                 <li class="check"><span>Learn proper HTML documentation</span></li>
+                 <li class="check"><span>Work on your own time using our videos</span></li>
+                 <li class="cancel"><span>Learn CSS</span></li>
+                 <li class="cancel"><span>Lessons from a professional web developer</span></li>
+                 <li class="cancel"><span>Personalized lessons catered to you</span></li>
+                 <li class="cancel"><span>Ask our tutors for personal help any time</span></li>
+            </ul>
+         </div>
+
     <section id="ContactUs">
     <article>
         <div class="inline">
@@ -103,8 +128,14 @@
             </table>
         </article>
     </section>
-    <section id="#signupForm">
-        <h2>Register Today<a id=Register></a></h2>
+
+
+
+    </section>
+    <section id="signupForm">
+        <div class="inline">
+            <h2>Register Today<a id=Register></a></h2>
+        </div>
         <form method="POST" action="mailto:ustinbrothers@throwaway.ca" name="Sign up Form" enctype="text/plain">
         <input type="hidden" name="subject" value="signup">
         <p>
@@ -112,7 +143,7 @@
                 <legend>Select your package type</legend>
                 <select required>
                     <option value=""> &nbsp; </option>
-                    <option value="1" selected>Free</option>
+                    <option value="1" selected="Choose from dropdown menu">Free</option>
                     <option value="2">Basic</option>
                     <option value="3">Premium</option>
                 </select>
@@ -187,8 +218,8 @@
                     </p>
             </fieldset>
             <br>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Clear">      
+            <input class="submit" type="submit" value="Submit">
+            <input class="submit" type="reset" value="Clear">      
     </form>
     </section>
     <footer>
